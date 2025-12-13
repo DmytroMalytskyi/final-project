@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: DOCKERHUB_USERNAME/eks-python-demo:latest # <-- заміни на свій
+          image: dmytrro/eks-python-demo:latest 
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
